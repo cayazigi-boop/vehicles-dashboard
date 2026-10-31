@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 # Lendo o arquivo CSV com os dados dos veículos:
-car_data = pd.read_csv('vehicles.csv')  # lendo os dados
+car_data = pd.read_csv('vehicles_us.csv')  # lendo os dados
 
 st.header('Venda de Carros')  # Título do aplicativo
 scatter_checkbox = st.checkbox('gráfico de dispersão')
